@@ -331,3 +331,14 @@ str aBcDefJjjX
 upper ustr str
 lower lstr str
 ```
+
+## Функция `sleep`
+
+Заставляет поток выполнения вашего скрипта уснуть на N секунд
+
+```shell
+begin
+echo ждите 5 сек
+sleep 5
+echo лол, дождались
+```
